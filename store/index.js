@@ -22,7 +22,7 @@ export const actions = {
                 if (!(data && data.user)) return;
                 commit('user/setUser', JSON.parse(data.user))
             } catch(err) {
-                console.log(err)
+                
             }
             
         }
