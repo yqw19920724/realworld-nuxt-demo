@@ -95,7 +95,6 @@ export default {
     ]);
     const md = new MartdownIt();
     article.body = md.render(article.body);
-    console.log(article);
     return {
       article,
       comments,
